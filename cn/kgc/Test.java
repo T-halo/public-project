@@ -7,7 +7,9 @@ import cn.kgc.util.impl.LinkedList;
 public class Test {
 
     static class A extends Object {
-
+        private String getName() {
+            return "Foo";
+        }
     }
 
     public static void main(String[] args) {
